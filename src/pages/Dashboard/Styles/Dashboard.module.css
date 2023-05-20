@@ -1,0 +1,82 @@
+.container {
+    width: 100%;
+    max-width: 130rem;
+    padding: 0rem 4rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.dashboard {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dashboardHead {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.dashboardHead>.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head>span {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.durationButton>select {
+    border: none;
+    background: var(--orange-gradient);
+    padding: 10px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cardHead {
+    font-size: 1rem;
+}
+
+.cardHead :nth-child(1) {
+    color: rgb(255, 255, 255, 0.835)
+}
+
+.cardHead :nth-child(2) {
+    margin-left: 0.4rem;
+    font-size: 0.8rem;
+    color: var(--green);
+}
+
+.cardHead :nth-child(2)::after {
+    content: '%';
+}
+
+.cardAmount :nth-child(1) {
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255, 0.778);
+    position: relative;
+    bottom: 5px
+}
+
+.cardAmount :nth-child(2) {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
