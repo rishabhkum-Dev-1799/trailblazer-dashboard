@@ -1,0 +1,72 @@
+.container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.head>img {
+    width: 2rem;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--grey);
+}
+
+.stat :nth-child(1) {
+    font-size: 0.8rem;
+}
+
+.stat:nth-child(2) {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+
+.orders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.order>div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: var(--grey);
+    font-size: 0.85rem;
+}
+
+.order :nth-child(1) {
+    margin-bottom: 0.4rem;
+}
+
+.order :nth-child(1)>:nth-child(1) {
+    font-size: 1rem;
+}
+
+.order>:nth-child(1)>:nth-child(2) {
+    font-size: 1rem;
+    color: var(--green);
+}
+
+.orderschart {
+    width: 100%;
+}
+
+.orderschart:nth-child(1) {
+    text-align: center;
+}
